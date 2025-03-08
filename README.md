@@ -6,7 +6,7 @@ The below image describes what are the different values that can be sent over UA
 
 
 ## Features  
-✅ Reads logs from UART or a file   
+✅ Reads logs from UART 
 ✅ Provides real-time visualization  
 
 ## Technologies  
