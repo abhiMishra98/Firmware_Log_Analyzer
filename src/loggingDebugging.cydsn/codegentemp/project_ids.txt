@@ -1,0 +1,7 @@
+C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\CyAnnotationLibrary.cyprj|11a488e3-966f-4520-b34c-46e4bde9b1e2
+C:\Users\abhim\OneDrive\Documents\PSoC Creator\4.4\Downloads ( 4.4).cylib\Downloads ( 4.4).cyprj|83b018ea-a722-453b-995f-22f7f71713d9
+C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\cycomponentlibraryupdates\CyComponentLibraryUpdates.cylib\CyComponentLibraryUpdates.cyprj|b9850dcb-8319-463b-a8ad-ffe7cd52c175
+C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CyComponentLibrary.cyprj|0e05bc3d-6cdb-4f7d-88ba-f8ada81a6ed3
+C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyPrimitives.cyprj|397c1754-14bc-4a01-9d80-53e32d7ab905
+C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\default\CyReferenceLibrary\CyReferenceLibrary.cylib\CyReferenceLibrary.cyprj|8100e8a0-588b-4e44-a314-d8464c2d5b0f
+D:\psoc-workspace\JD Specifics\Nokia Werkstudent\New folder\loggingDebugging.cydsn\loggingDebugging.cyprj|9c779543-44d3-48d5-91ee-c8c6b072832a

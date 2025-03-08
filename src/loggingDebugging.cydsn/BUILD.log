@@ -1,0 +1,20 @@
+--------------- Build Started: 03/09/2025 01:46:27 Project: loggingDebugging, Configuration: ARM GCC 5.4-2016-q2-update Debug ---------------
+The code generation step is up to date.
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/main.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c main.c -o .\CortexM3\ARM_GCC_541\Debug\main.o
+main.c: In function 'main':
+main.c:22:5: warning: implicit declaration of function 'sprintf' [-Wimplicit-function-declaration]
+     sprintf(buffer + strlen(buffer), "%u\r\n", statusReg);
+     ^
+main.c:22:5: warning: incompatible implicit declaration of built-in function 'sprintf'
+main.c:22:5: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+arm-none-eabi-ar.exe -rs .\CortexM3\ARM_GCC_541\Debug\loggingDebugging.a .\CortexM3\ARM_GCC_541\Debug\UART_LOG.o .\CortexM3\ARM_GCC_541\Debug\UART_LOG_PM.o .\CortexM3\ARM_GCC_541\Debug\UART_LOG_INT.o .\CortexM3\ARM_GCC_541\Debug\UART_LOG_BOOT.o .\CortexM3\ARM_GCC_541\Debug\UART_LOG_IntClock.o .\CortexM3\ARM_GCC_541\Debug\CyDmac.o .\CortexM3\ARM_GCC_541\Debug\CyFlash.o .\CortexM3\ARM_GCC_541\Debug\CyLib.o .\CortexM3\ARM_GCC_541\Debug\cyPm.o .\CortexM3\ARM_GCC_541\Debug\CySpc.o .\CortexM3\ARM_GCC_541\Debug\cyutils.o .\CortexM3\ARM_GCC_541\Debug\cy_em_eeprom.o .\CortexM3\ARM_GCC_541\Debug\CyBootAsmGnu.o
+arm-none-eabi-ar.exe: creating .\CortexM3\ARM_GCC_541\Debug\loggingDebugging.a
+arm-none-eabi-gcc.exe -Wl,--start-group -o "D:\psoc-workspace\JD Specifics\Nokia Werkstudent\New folder\loggingDebugging.cydsn\CortexM3\ARM_GCC_541\Debug\loggingDebugging.elf" .\CortexM3\ARM_GCC_541\Debug\main.o .\CortexM3\ARM_GCC_541\Debug\cyfitter_cfg.o .\CortexM3\ARM_GCC_541\Debug\cymetadata.o .\CortexM3\ARM_GCC_541\Debug\Cm3Start.o .\CortexM3\ARM_GCC_541\Debug\loggingDebugging.a "C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CortexM3\ARM_GCC_541\Debug\CyComponentLibrary.a" -mcpu=cortex-m3 -mthumb -L Generated_Source\PSoC5 -Wl,-Map,.\CortexM3\ARM_GCC_541\Debug/loggingDebugging.map -T Generated_Source\PSoC5\cm3gcc.ld -specs=nano.specs -Wl,--gc-sections -g -ffunction-sections -Og -ffat-lto-objects -Wl,--end-group
+cyelftool.exe -C "D:\psoc-workspace\JD Specifics\Nokia Werkstudent\New folder\loggingDebugging.cydsn\CortexM3\ARM_GCC_541\Debug\loggingDebugging.elf" --flash_row_size 256 --flash_size 262144 --flash_offset 0x00000000
+No ELF section .cychecksum found, creating one
+Application checksum calculated and stored in ELF section .cychecksum
+Checksum calculated and stored in ELF section .cymeta
+cyelftool.exe -S "D:\psoc-workspace\JD Specifics\Nokia Werkstudent\New folder\loggingDebugging.cydsn\CortexM3\ARM_GCC_541\Debug\loggingDebugging.elf"
+Flash used: 3800 of 262144 bytes (1.4%).
+SRAM used: 2529 of 65536 bytes (3.9%). Stack: 2048 bytes. Heap: 128 bytes.
+--------------- Build Succeeded: 03/09/2025 01:46:28 ---------------
